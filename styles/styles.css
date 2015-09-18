@@ -23,21 +23,44 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: ;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Poiret One', cursive;
+    /*font-family: 'Slabo 27px', serif;*/
     /*font-size: 0.7em;*/
     color: #000;
     box-sizing:border-box;
 
 }
 
+a {
+    text-decoration: none;
+}
+
+a {
+    font-weight: bold;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.8em;
+    letter-spacing: -1px;
+}
+
+a:hover {
+    color: #66DE3E;
+    text-decoration-style: dashed;
+
+}
 .wrapper1, wrapper2, wrapper3 {
     height: 100%;
     width: 100%;
 }
 
-nav {
-/*    height: 6%;*/
-}
 
 #jumbotron {
 /*	background-image: url('../images/cityscape-mutuamatheka.jpg');*/
@@ -67,8 +90,8 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    -webkit-filter: opacity(.7);
-  filter: opacity(.7);
+ /*   -webkit-filter: opacity(.7);
+  filter: opacity(.7);*/
 
 }
 
@@ -77,24 +100,113 @@ nav {
 
 }
 
+/***********************************************************************/
+/* Fading Divs */
+
 #top1 {
     position: absolute;
-    top: 30%;
-    /*left: 30px;
-    top: 50px;*/
     width: 100%;
-    height: 70%;
+    height: 100%;
+    text-align: center;
+    /*padding-top: 8.5%;*/
+}
+
+.sec1 {
+    height: 20%;
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
     background-color: aliceblue;
+}
+
+.sec2, .sec3, .sec4, .sec5 {
+    height: 6.25%;
+   background-color: aliceblue;
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+}
+
+.sec7, .sec8, .sec9, .sec10 {
+    height: 6.25%;
+    background-color: aliceblue;
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+}
+
+/*********Section with text*********/
+.sec6 {
+    height:14%
+    background-color: aliceblue;
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+    color: aliceblue;
+}
+.sec6 h1:hover {
+    color: #66DE3E;
+    text-decoration-style: dashed;
+    font-weight: bold;
+}
+
+.sec6 p, .sec6 h1 {
+     -webkit-filter: opacity(1);
+    filter: opacity(1);
+}
+
+/***************************************/
+.sec11 {
+    height: 15%;
     -webkit-filter: opacity(.8);
     filter: opacity(.8);
 }
+.sec10 {
 
-h1, h2, h3 {
-    font-family: 'Poiret One', cursive;
-
-
+    -webkit-filter: opacity(.7);
+    filter: opacity(.7);
 }
-#map {
-	width: 500px;
+.sec9 {
+    -webkit-filter: opacity(.6);
+    filter: opacity(.7);
+}
+.sec8 {
+
+    -webkit-filter: opacity(.4);
+    filter: opacity(.4);
+}
+.sec7 {
+
+    -webkit-filter: opacity(.3);
+    filter: opacity(.3);
+}
+
+
+
+
+/**********************************************/
+
+
+/*-------------------------------------------------------------------------->
+    <!--------------PAGE 2 ----------------- */
+
+#wrapper3 {
+    width: 100%;
+    margin-top: 30px;
+    background-color: black;
+    height: 500px;
+    color: aliceblue;
+}
+
+#wrapper3.col-md-4 {
+    height: 500px;
+    text-align: center;
+    padding-top:
+}
+iframe {
+	width: 470px;
 	height: 400px;
 }
+
+
+<!-----FOOTER ------->
+#footer {
+
+}
+.col-md-4
