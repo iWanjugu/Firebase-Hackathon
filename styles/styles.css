@@ -79,7 +79,7 @@ a:hover {
     min-width: 100%;
    /* min-height: 100%; */
     width: auto;
-    height: auto;
+    height: 100%;
 
     /*aligning vertically*/
     position: absolute; /*parent div should be relatively positioned*/
@@ -106,30 +106,25 @@ a:hover {
     /*padding-top: 8.5%;*/
 }
 
+.sec2, .sec3, .sec4, .sec5, .sec7, .sec8, .sec9, .sec10, .sec11, .sec12, .sec13, .sec14, .sec15 {
+    background-color: aliceblue;
+}
+
 .sec1 {
     height: 20%;
     -webkit-filter: opacity(0);
     filter: opacity(0);
-    background-color: aliceblue;
 }
 
 .sec2, .sec3, .sec4, .sec5 {
     height: 6.25%;
-   background-color: aliceblue;
-    -webkit-filter: opacity(0);
-    filter: opacity(0);
-}
-
-.sec7, .sec8, .sec9, .sec10 {
-    height: 6.25%;
-    background-color: aliceblue;
     -webkit-filter: opacity(0);
     filter: opacity(0);
 }
 
 /*********Section with text*********/
 .sec6 {
-    height:14%
+    height:15%
     background-color: aliceblue;
     -webkit-filter: opacity(1);
     filter: opacity(1);
@@ -147,32 +142,52 @@ a:hover {
 }
 
 /***************************************/
-.sec11 {
-    height: 15%;
-    -webkit-filter: opacity(.8);
-    filter: opacity(.8);
-}
-.sec10 {
-
-    -webkit-filter: opacity(.7);
-    filter: opacity(.7);
-}
-.sec9 {
-    -webkit-filter: opacity(.6);
-    filter: opacity(.7);
+.sec7 {
+    height: 2%;
+    -webkit-filter: opacity(.1);
+    filter: opacity(.1);
 }
 .sec8 {
-
-    -webkit-filter: opacity(.4);
-    filter: opacity(.4);
+    height: 3%;
+    -webkit-filter: opacity(.2);
+    filter: opacity(.2);
 }
-.sec7 {
-
+.sec9 {
+    height: 3%;
     -webkit-filter: opacity(.3);
     filter: opacity(.3);
 }
+.sec10 {
+    height: 4%;
+    -webkit-filter: opacity(.4);
+    filter: opacity(.4);
+}
+.sec11 {
+    height: 4.5%;
+    -webkit-filter: opacity(.5);
+    filter: opacity(.5);
+}
+.sec12 {
+    height: 5%;
+    -webkit-filter: opacity(.6);
+    filter: opacity(.6);
+}
+.sec13 {
+    height: 6%;
+    -webkit-filter: opacity(.7);
+    filter: opacity(.7);
+}
 
-
+.sec14 {
+    height: 6.5%;
+    -webkit-filter: opacity(.8);
+    filter: opacity(.8);
+}
+.sec15 {
+    height: 33px;
+    -webkit-filter: opacity(.8);
+    filter: opacity(1);
+}
 
 
 /**********************************************/
@@ -181,10 +196,6 @@ a:hover {
 #wrapper2 {
     width: 100%;
     height: 100%;
-    border-style: solid;
-    border-color: chartreuse;
-    border-width: 1px;
-
 }
 
 #mid {
@@ -195,14 +206,14 @@ a:hover {
 
 #mid .top2 {
     height: 10%;
-    background-color: aliceblue;
-    -webkit-filter: opacity(0.7);
-    filter: opacity(0.7);
+    background-color: #fff;
+    -webkit-filter: opacity(.9);
+    filter: opacity(.9);
 }
 
 #mid .bottom2 {
     height: 90%;
-    background-color: aliceblue;
+    background-color: #fff;
     -webkit-filter: opacity(1);
     filter: opacity(1);
 }
@@ -212,6 +223,13 @@ a:hover {
 
 #wrapper3 {
     width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    /*background-color: black;    */
+}
+
+
+#section1 {
     margin-top: 30px;
     background-color: black;
     height: 500px;
@@ -220,10 +238,9 @@ a:hover {
 }
 
 /** Contacts **/
-#wrapper3.col-md-4 {
+#section1.col-md-4 {
     height: 500px;
 
-    padding-top:
 }
 
 #twitter {
@@ -241,7 +258,7 @@ iframe {
 #footer {
     height: 50px;
     background-color:aliceblue;
-    color: black;
+    color: dimgray;
     text-align: center;
 }
 
