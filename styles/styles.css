@@ -77,7 +77,6 @@ a:hover {
 
     /*to fit in div*/
     min-width: 100%;
-   /* min-height: 100%; */
     width: auto;
     height: 100%;
 
@@ -198,6 +197,10 @@ a:hover {
     height: 100%;
 }
 
+#wrapper2 h2 {
+    color:  #0E73B7;
+}
+
 #mid {
     height: 100%;
     -webkit-filter: opacity(1);
@@ -224,10 +227,11 @@ a:hover {
 #wrapper3 {
     width: 100%;
     height: 100%;
-    margin-top: 30px;
-    /*background-color: black;    */
 }
 
+#wrapper3 h2 {
+    color:  #0E73B7;
+}
 
 #section1 {
     margin-top: 30px;
@@ -237,35 +241,57 @@ a:hover {
     text-align: center;
 }
 
-/** Contacts **/
-#section1.col-md-4 {
-    height: 500px;
-
+/** Directions */
+ #maps.col-md-8 {
+    position: relative;
+    min-width: 66%;
+    height: 100%;
+    float: left;
 }
-
-#twitter {
-    margin-top: 30px;
-
-}
-
 iframe {
-	width: 470px;
-	height: 400px;
+    position: absolute; /*parent div should be relatively positioned*/
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 100%;
+    width: 100%
 }
+
+/** Contacts and twitter **/
+#section2 {
+    height: 450px;
+    text-align: center;
+}
+
+#sides {
+    height: 100%;
+
+}
+
+#section2.col-md-4 {
+
+
+}
+
+
+/*#socmedia {
+    margin-top: 30px;
+}
+
+#socmedia a {
+    margin-top: 30px;*/
+
+}
+
 
 
 <!-----FOOTER ------->
 #footer {
-    height: 50px;
-    background-color:aliceblue;
-    color: dimgray;
-    text-align: center;
 }
 
 #footer.col-md-12 {
     height: 95px;
-    background-color:#fff;
-    color: black;
+    background-color: #fff;
+    color:  #0E73B7;
     text-align: center;
     font-size: 1.2em;
 }
