@@ -9,7 +9,8 @@
 
 <!-------------------------------------------------------------------------->
     <!------PAGE 1: BODY------>
-	<body>
+<body>
+    <div class="wrapper1">
         <!----- Nav Bar ----->
 		<nav class="navbar navbar-inverse navbar-fixed-top" >
 			<div class="container">
@@ -28,41 +29,27 @@
 		</nav>
 
         <!----- Page Body ----->
-        <div class="container">
 
-
-    <div class="jumbotron" >
-
-             <video class="vida" loop muted autoplay>
+        <div id="jumbotron" >
+             <video class="vida" loop="auto" muted autoplay>
                 <source src="images/video.mp4"  type="video/mp4">
-
             </video>
 
-                <div id="top1">
-                    <h1>Hackers...</h1>
-				<p>The Firebase Hackathon is coming to the city this month</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Register/Login</a></p>
-
-				</div>
-
-
-          <!--- Text --->
-			<div class="intro">
-
-                  <!--- Video --->
-
-
-
-			</div>
+            <div id="top1">
+            <h1>Hackers...</h1>
+                <p>The Firebase Hackathon is coming to the city this month</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Register</a></p>
+                <!--<div>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		          </div>-->
+            </div>
 		</div>
-
+    </div>
 
 <!-------------------------------------------------------------------------->
+    <!--------------PAGE 2 ----------------->
 
-        <div>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		</div>
-		<div class="container" >
+		<div class="container1" >
 			<div class="row featurette">
 				<div class="col-md-7">
 					<h2>What's the event about?</h2>
@@ -94,10 +81,12 @@
 				</div>
 			</div>
 
+        </div>
 
 <!-------------------------------------------------------------------------->
     <!------PAGE 2: APIs------>
             <!--- Twitter --->
+        <div>
 			<a href="https://twitter.com/twitter" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @twitter</a>
 
             <!--- Google API --->
@@ -105,7 +94,7 @@
 			<!-- <div id="map"></div> -->
 		</div>
 
-            </div>
+</div>
 	</body>
     <!--Scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

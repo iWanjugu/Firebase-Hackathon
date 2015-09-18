@@ -30,33 +30,63 @@ html, body {
 
 }
 
-nav {
-    height: 6%;
+.wrapper1, wrapper2, wrapper3 {
+    height: 100%;
+    width: 100%;
 }
 
-.jumbotron {
+nav {
+/*    height: 6%;*/
+}
+
+#jumbotron {
 /*	background-image: url('../images/cityscape-mutuamatheka.jpg');*/
     position: relative;
-    background-size: cover;
+   /* background-size: cover;*/
 	height: 100%;
     width: 100%;
+    background-color: black;
 
 }
 
 .vida {
+    background-size: cover;
+
+    /*to fit in div*/
+    min-width: 100%;
+   /* min-height: 100%; */
+    width: auto;
+    height: auto;
+
+    /*aligning vertically*/
+    position: absolute; /*parent div should be relatively positioned*/
+    top: 50%;
+    transform: translate(0, -50%);
+
+    /*aligning horizontally*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-filter: opacity(.7);
+  filter: opacity(.7);
+
+}
+
+.container, .container1 {
+ width: 100%;
+
+}
+
+#top1 {
     position: absolute;
-    height: 100%;
+    top: 30%;
+    /*left: 30px;
+    top: 50px;*/
     width: 100%;
-    max-width: 100%;
-
-}
-
-.container {
- width: 70%;
-
-}
-.intro{
-
+    height: 70%;
+    background-color: aliceblue;
+    -webkit-filter: opacity(.8);
+    filter: opacity(.8);
 }
 
 h1, h2, h3 {
@@ -64,23 +94,6 @@ h1, h2, h3 {
 
 
 }
-
-#top1 {
-    position: absolute;
-    left: 30px;
-    top: 50px;
-    width: 200px;
-    height: 200px;
-}
-
-
-
-
-
-
-
-
-
 #map {
 	width: 500px;
 	height: 400px;
