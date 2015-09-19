@@ -65,7 +65,7 @@ a:hover {
 }
 
 
-#jumbotron, #jumbotron3 {
+#jumbotron, #jumbotron2 {
 /*	background-image: url('../images/cityscape-mutuamatheka.jpg');*/
     position: relative;
    /* background-size: cover;*/
@@ -233,6 +233,7 @@ a:hover {
 
 #wrapper3 h2 {
     color:  #0E73B7;
+    text-align: center;
 }
 
 #jumbotron3 {
@@ -242,7 +243,6 @@ a:hover {
     background-color: black;
 }
 
-
 .contact-top {
     height: 10%;
     background-color: #fff;
@@ -251,35 +251,16 @@ a:hover {
 }
 
 #contact-mid {
+    height: 90%;
+    width: 100%;
     background-color: #fff;
-    height: 80%;
+    text-align: center;
     -webkit-filter: opacity(1);
     filter: opacity(1);
 }
 
-#contacts {
-    background-color: #fff;
-    height: 100%;
-    width: 33%;
-}
-
-#socmedia {
-    background-color: #fff;
-    height: 100%;
-    width: 33%;
-}
-
-#maps {
-    background-color: #fff;
-    height: 100%;
-    width: 33%;
-}
-
-iframe {
-    /*position: absolute; parent div should be relatively positioned
-    top: 50%;
-    transform: translate(0, -50%);*/
-    height: 95%;
+#contact-mid iframe {
+    height: 80%;
     width: 95%;
 }
 
@@ -292,13 +273,12 @@ iframe {
     font-size: 1.2em;
 
     -webkit-filter: opacity(1);
-    filter: opacity(0);
+    filter: opacity(1);
 }
 
 
 #footer.col-md-12 .col-md-1 {
    background-color:chartreuse;
     margin: 0;
-    padding-right: 5px;
     height: 100%;
 }
