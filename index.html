@@ -10,6 +10,22 @@
 <!-------------------------------------------------------------------------->
     <!------PAGE 1: BODY------>
 <body>
+        <!--facebook start-->
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <!--facebook ends-->
+
+  <!------------------------------------------------------------->
+<!-- /******* Title Page ******/  -->
+
     <div class="wrapper1">
         <!----- Nav Bar ----->
 		<nav class="navbar navbar-inverse navbar-fixed-top" >
@@ -95,69 +111,73 @@
         <!---CONTACTS--->
     <div id="wrapper3">
 
-       <div id="jumbotron">
+       <div id="jumbotron3">
             <video class="vida" loop="auto" muted autoplay>
                 <source src="images/video.mp4"  type="video/mp4">
             </video>
-        <!-- section 1 -->
-             <!--- Google API --->
-        <div id="section1" class="col-md-12">
+                <!-- Empty Contact top ---->
+               <div class="contact-top"></div>
 
-            <div id="maps" class="col-md-8">
+               <!--- Contacts and FB APIs --->
+                <div id="contact-mid" class="col-md-12">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.792177706332!2d36.76551099999999!3d-1.2994938999999943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6bf7445dc1%3A0x940b62a3c8efde4c!2sMoringa+School!5e0!3m2!1ssw!2ske!4v1442502656951" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+                    <!--- Contacts --->
+                    <div id="contacts" class="col-md-4">
+                        <h2>Contact Us</h2
+                        <p class="lead">
+                            call us:    +254-711-581-484
+                            <br>
+                            email us: contact@moringaschool.com
+                        </p>
+                    </div>
+                    <!--- Social Media APIs --->
+                    <div id="socmedia" class="col-md-4">
+                        <h2>Social Media</h2>
+                        <br>
 
-            <div id="directions" class="col-md-4" >
-                    XXXXXXXX
+                        <!--- Twitter API --->
+                        <a href="https://twitter.com/twitter" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @twitter</a>
+                        <br>
+                        <!--- Facebook API --->
+                        <br>
+                        <!--Placing Facebook-->
 
-            </div>
-        </div>
+                        <a class="fb-like" data-href="http://moringaschool.com/" data-width="50" data-layout="standard" data-action="like" data-show-faces="false" data-share="true">
+                        </a>
+
+                </div>
+                        <br>
+                    </div>
+
+                <!--- Google Maps Map --->
+                <div id="maps" class="col-md-4">
+                        <h2>Find Us</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.792177706332!2d36.76551099999999!3d-1.2994938999999943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6bf7445dc1%3A0x940b62a3c8efde4c!2sMoringa+School!5e0!3m2!1ssw!2ske!4v1442502656951" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                </div>
+                     <!-----Footer ------->
+
+                <div id="footer" class="col-md-12" >
+                    <div class="col-md-1" ></div>
+                    <div class="col-md-3" >
+                        moringschool.com
+                    </div>
+                    <div class="col-md-4" >
+                        In conjunction with Firebase
+                    </div>
+                    <div class="col-md-3" >
+                     2015
+                    </div>
+                    <div class="col-md-1" ></div>
+             </div><!-----End of Footer ------->
+
+    </div> <!-----End of Jumbotron ------->
+</div>  <!-----End of wrapper3 ------->
 
 
-         <!-- section 2 -->
-        <div id="section2" class="col-md-12">
-
-             <div id="sides" class="col-md-2"></div>
-
-            <!--- Contacts, Twitter and FB APIs --->
-             <div class="col-md-4" >
-                <h2>Contact Us</h2>
-                <p class="lead">
-                    call us:    +254-711-581-484
-                    <br>
-                    email us: contact@moringaschool.com
-                </p>
-            </div>
-
-                 <!--- Twitter --->
-            <div id="socmedia" class="col-md-4" >
-                <h2>Social Media</h2>
-                <a href="https://twitter.com/twitter" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @twitter</a>
-                <br>
-            </div>
-
-            <div id="sides" class="col-md-2"></div>
-
-        </div>
-
-         <!-----Footer ------->
-
-         <div id="footer" class="col-md-12" >
-             <div class="col-md-1" ></div>
-             <div class="col-md-3" >
-                moringschool.com
-            </div>
-             <div class="col-md-4" >
-                 In conjunction with Firebase
-             </div>
-            <div class="col-md-3" >
-                2015
-            </div>
-            <div class="col-md-1" ></div>
-         </div>
-    </div>
-    </div>
+<!-------------------------------------------------------------------------->
 </body>
 
 
