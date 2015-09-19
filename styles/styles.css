@@ -45,6 +45,9 @@ h1, h2, h3 {
     letter-spacing: 3px;
     font-weight: 600;
 }
+h1 {
+    font-size: 200px;
+}
 
 p {
     font-size: 1.8em;
@@ -62,14 +65,13 @@ a:hover {
 }
 
 
-#jumbotron {
+#jumbotron, #jumbotron3 {
 /*	background-image: url('../images/cityscape-mutuamatheka.jpg');*/
     position: relative;
    /* background-size: cover;*/
 	height: 100%;
     width: 100%;
     background-color: black;
-
 }
 
 .vida {
@@ -97,7 +99,7 @@ a:hover {
 /***********************************************************************/
 /* Fading Divs */
 
-#top1, #mid {
+#top1, #mid, #contacts {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -210,7 +212,7 @@ a:hover {
 #mid .top2 {
     height: 10%;
     background-color: #fff;
-    -webkit-filter: opacity(.9);
+    -webkit-filter: opacity(.2);
     filter: opacity(.9);
 }
 
@@ -226,88 +228,77 @@ a:hover {
 
 #wrapper3 {
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
 #wrapper3 h2 {
     color:  #0E73B7;
 }
 
-#section1 {
-    margin-top: 30px;
-    background-color: black;
-    height: 500px;
-    color: aliceblue;
-    text-align: center;
-}
-
-/** Directions */
- #maps.col-md-8 {
+#jumbotron3 {
     position: relative;
-    min-width: 66%;
-    height: 100%;
-    float: left;
-}
-iframe {
-    position: absolute; /*parent div should be relatively positioned*/
-    top: 50%;
-    transform: translate(0, -50%);
-    height: 100%;
-    width: 100%
-}
-
-/** Contacts and twitter **/
-#section2 {
-    height: 450px;
-    text-align: center;
-}
-
-#sides {
-    height: 100%;
-
-}
-
-#section2.col-md-4 {
-
-
+   	height: 100%;
+    width: 100%;
+    background-color: black;
 }
 
 
-/*#socmedia {
-    margin-top: 30px;
-}
-
-#socmedia a {
-    margin-top: 30px;*/
-
-}
-
-
-
-<!-----FOOTER ------->
-#footer {
-}
-
-#footer.col-md-12 {
-    height: 95px;
+.contact-top {
+    height: 10%;
     background-color: #fff;
-    color:  #0E73B7;
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+}
+
+#contact-mid {
+    background-color: #fff;
+    height: 80%;
+    -webkit-filter: opacity(1);
+    filter: opacity(1);
+}
+
+#contacts {
+    background-color: #fff;
+    height: 100%;
+    width: 33%;
+}
+
+#socmedia {
+    background-color: #fff;
+    height: 100%;
+    width: 33%;
+}
+
+#maps {
+    background-color: #fff;
+    height: 100%;
+    width: 33%;
+}
+
+iframe {
+    /*position: absolute; parent div should be relatively positioned
+    top: 50%;
+    transform: translate(0, -50%);*/
+    height: 95%;
+    width: 95%;
+}
+
+/****<!-----FOOTER ------->****/
+#footer.col-md-12 {
+    height: 10%;
+    background-color: #fff;
+    color:  #000;
     text-align: center;
     font-size: 1.2em;
+
+    -webkit-filter: opacity(1);
+    filter: opacity(0);
 }
 
-#footer.col-md-12 .col-md-4 {
-    padding-top: 20px;
-
-}
-#footer.col-md-12 .col-md-3 {
-    padding-top: 20px;
-}
 
 #footer.col-md-12 .col-md-1 {
    background-color:chartreuse;
     margin: 0;
     padding-right: 5px;
-
-    height: 70px;
+    height: 100%;
 }
