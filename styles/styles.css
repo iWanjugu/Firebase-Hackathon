@@ -27,14 +27,15 @@ html, body {
     /*font-size: 0.7em;*/
     color: #000;
     box-sizing:border-box;
-
 }
 
-a {
-    text-decoration: none;
+nav.navbar {
+    font-size: 1.4em;
+    margin-right: 0;
+    font-weight: bold;
 }
 
-a {
+nav.navbar a {
     font-weight: bold;
     color: #fff;
 }
@@ -57,18 +58,15 @@ h1 {
 a:hover {
     color: #66DE3E;
     text-decoration-style: dashed;
-
 }
+
 #wrapper1, #wrapper2, #wrapper3 {
     height: 100%;
     width: 100%;
 }
 
-
 #jumbotron, #jumbotron2 {
-/*	background-image: url('../images/cityscape-mutuamatheka.jpg');*/
     position: relative;
-   /* background-size: cover;*/
 	height: 100%;
     width: 100%;
     background-color: black;
@@ -223,8 +221,6 @@ a:hover {
 #wrapper3 h2 {
     color:  #0E73B7;
 }
-
-
 
 /*-------------------------------------------------------------------------->
     <!--------------LAST PAGE ----------------- */
