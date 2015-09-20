@@ -55,9 +55,14 @@ h1 {
     letter-spacing: 1px;
 }
 
-a:hover {
+sec6 a:hover {
     color: #66DE3E;
     text-decoration-style: dashed;
+}
+
+.btn{
+    font-size: .7em;
+    font-weight: bold;
 }
 
 #wrapper1, #wrapper2, #wrapper3 {
